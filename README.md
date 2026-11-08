@@ -1,24 +1,24 @@
 # Hey, I'm Gravy 👋
 
-I'm into flight simulation, gaming, web design and building software. I learn by making things, testing them and improving them with feedback from the people using them.
+I'm into flight simulation, gaming, web design and building software. I learn by making things, listening to feedback and improving the tools people use.
 
 ## What I'm working on
 
-### ✈️ [OptiShade](https://github.com/GamingWithGravy/OptiShade)
+### ✈️ [OptiShade 1.0](https://github.com/GamingWithGravy/OptiShade)
 
-OptiShade brings image effects, presets and supported performance controls together for **Microsoft Flight Simulator 2020 and 2024, plus experimental X-Plane 12 support**.
+OptiShade is a game setup and graphics toolkit for **Microsoft Flight Simulator 2020 and 2024**. It brings per-game installation, image effects, presets, in-game controls and diagnostics together in one launcher.
 
-Image effects work on **NVIDIA and AMD** graphics cards. Optional Neural Rendering requires compatible **NVIDIA RTX** hardware and its matching model; AMD Neural Rendering remains in development with no ETA.
+- Image effects and the Look Editor for NVIDIA and AMD GPUs.
+- Optional Neural Rendering and OptiMFG controls on supported NVIDIA RTX and simulator configurations.
+- Glass Cockpit correction for MSFS, provided by IFreemz.
+- Optional AtmosphereMod support through its official distribution.
+- Per-game install, repair, restore, update management and troubleshooting tools.
 
-**OptiShade 0.21 XP12** adds experimental Vulkan Neural Rendering in X-Plane 12 and native-TAA Neural Rendering in MSFS DirectX 12. Features depend on the simulator, graphics API and GPU. A portable manager is available alongside the regular EXE.
+Feature availability depends on the game, graphics API, GPU and installed components. OptiShade is free; third-party components remain credited to their creators. See the [project credits](https://github.com/GamingWithGravy/OptiShade/blob/main/CREDITS.md) for details.
 
-**OptiShade Manager** handles installation, updates, repairs and restores, while the in-game menu lets you adjust your setup and create your own look.
+[Explore OptiShade](https://github.com/GamingWithGravy/OptiShade) · [Latest release](https://github.com/GamingWithGravy/OptiShade/releases/latest) · [Report an issue](https://github.com/GamingWithGravy/OptiShade/issues) · [OptiShade Discord](https://discord.gg/sq384cjC4N) · [BlackBox Discord](https://discord.gg/aWHUGeCqkz)
 
-The project builds on modified ReShade and OptiScaler components, with credit to the developers behind those technologies.
-
-[Explore OptiShade](https://github.com/GamingWithGravy/OptiShade) · [Latest release](https://github.com/GamingWithGravy/OptiShade/releases/latest) · [Report an issue](https://github.com/GamingWithGravy/OptiShade/issues) · [BlackBox Discord](https://discord.gg/6hjR9cSsy7)
-
-Please share diagnostic ZIPs in the **diagnostic zips** channel in BlackBox Discord, with a description of what happened.
+For problems, use the built-in diagnostics and follow the sharing instructions shown by the app. Please include what happened and which game you were using.
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Optional%20support-8650C8?style=for-the-badge)](https://buymeacoffee.com/GamingWithGravy)
 
